@@ -28,8 +28,16 @@ pip install *****
 
 To start a training, use the SLM.ipynb notebook. It will save the result in a dedicated folder (automatically created) during and after training, including a csv of the loss and a text description of the training. A training as displayed in the video lasts 2h on a dedicated GPU.
 
+To open it in Google colab : https://githubtocolab.com/nnniels/SDD-DeepLearning-project/blob/main/SLM.ipynb
+
+<br><br>
 
 The results produced can then be loaded using Compare_solutions.ipynb notebook, to produce graph and analysis.
+
+
+To open it in Google colab : https://githubtocolab.com/nnniels/SDD-DeepLearning-project/blob/main/Compare_solutions.ipynb
+
+<br><br>
 
 
 The Training_Results folder contains some models description and training results.
