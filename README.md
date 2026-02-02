@@ -31,7 +31,9 @@ To start a training, use the SLM.ipynb notebook. It will save the result in a de
 To open it in Google colab : https://githubtocolab.com/nnniels/SDD-DeepLearning-project/blob/main/SLM.ipynb
 <br>
 
-PRE-TRAINED MODELS are avilable here https://drive.google.com/drive/folders/1rFwByQjlr6rVbNbhlozhQYR2G82UP5JW?usp=sharing, you can load them in colab. They can be used in SLM.ipynb. Check that the model parameters defined in the notebook are coherent with the parameters of the model loaded.
+PRE-TRAINED MODELS are avilable here https://drive.google.com/drive/folders/1rFwByQjlr6rVbNbhlozhQYR2G82UP5JW?usp=sharing, you can load them in colab. They can be used in SLM.ipynb, there is a cell for loading them after the model instanciation. Check that the model parameters defined in the notebook are coherent with the parameters of the model loaded.
+
+There are 3 pre-trained model, trained on respectively 100%, 10% and 1% of the dataset. They are saved at different stages of training (iter 10k to 90k). They are 4 heads, 4 layers, 1024 neurons for feed-forward (24M params).
 
 <br><br>
 The results produced can then be loaded using Compare_solutions.ipynb notebook, to produce graph and analysis.
