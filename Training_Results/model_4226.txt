@@ -1,0 +1,27 @@
+GPTModel(
+  (token_embedding): Embedding(50257, 384)
+  (pos_embedding): Embedding(64, 384)
+  (blocks): ModuleList(
+    (0-7): 8 x TransformerBlock(
+      (ln1): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+      (attn): MultiHeadAttention(
+        (W_q): Linear(in_features=384, out_features=384, bias=True)
+        (W_k): Linear(in_features=384, out_features=384, bias=True)
+        (W_v): Linear(in_features=384, out_features=384, bias=True)
+        (W_o): Linear(in_features=384, out_features=384, bias=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (ln2): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+      (ff): FeedForward(
+        (net): Sequential(
+          (0): Linear(in_features=384, out_features=1024, bias=True)
+          (1): GELU(approximate='none')
+          (2): Linear(in_features=1024, out_features=384, bias=True)
+          (3): Dropout(p=0.1, inplace=False)
+        )
+      )
+    )
+  )
+  (ln_f): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+  (lm_head): Linear(in_features=384, out_features=50257, bias=False)
+)

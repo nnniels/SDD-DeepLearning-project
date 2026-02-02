@@ -1,0 +1,11 @@
+Trained model 4226 for 100000 iterations.
+            Batch size : 32
+            Block size : 64
+            Data fraction : 0.01
+            =============================================
+            d_model : 384
+            n_heads : 8
+            n_layers : 8
+            d_ff : 1024
+            dropout : 0.1
+            eval_iters : 50
